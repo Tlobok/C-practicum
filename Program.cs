@@ -39,26 +39,39 @@
 // 22 3 9 -> 22
 
 // Решение
-Console.Write("Enter the number 1: ");
-int number1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter the number 2: ");
-int number2 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter the number 3: ");
-int number3 = Convert.ToInt32(Console.ReadLine());
-if (number1 > number2)
-    {
-    Console.WriteLine("max = " + Math.Max(number1, number3));
-    }
-else
-    {
-    Console.WriteLine("max = " + Math.Max(number2, number3));
-    }
+// Console.Write("Enter the number 1: ");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter the number 2: ");
+// int number2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter the number 3: ");
+// int number3 = Convert.ToInt32(Console.ReadLine());
+// if (number1 > number2)
+//     {
+//     Console.WriteLine("max = " + Math.Max(number1, number3));
+//     }
+// else
+//     {
+//     Console.WriteLine("max = " + Math.Max(number2, number3));
+//     }
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+// Решение
+Console.Write("Enter the number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+if ((number % 2 == 0))
+    {
+    Console.WriteLine("да");
+    }
+else
+    {
+    Console.WriteLine("нет");
+    }
+
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
