@@ -18,24 +18,41 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.Write("Enter the number 1: ");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter the number 2: ");
-int b = Convert.ToInt32(Console.ReadLine());
-if (a > b)
-{
-    Console.WriteLine("max = " + a);
-}
-else
-{
-    Console.WriteLine("max = " + b);
-}
+// Решение
+// Console.Write("Enter the number 1: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter the number 2: ");
+// int b = Convert.ToInt32(Console.ReadLine());
+// if (a > b)
+// {
+//     Console.WriteLine("max = " + a);
+// }
+// else
+// {
+//     Console.WriteLine("max = " + b);
+// }
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
+
+// Решение
+Console.Write("Enter the number 1: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the number 2: ");
+int number2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the number 3: ");
+int number3 = Convert.ToInt32(Console.ReadLine());
+if (number1 > number2)
+    {
+    Console.WriteLine("max = " + Math.Max(number1, number3));
+    }
+else
+    {
+    Console.WriteLine("max = " + Math.Max(number2, number3));
+    }
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
